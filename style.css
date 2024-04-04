@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(238, 234, 234);
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+.container {
+  display: flex;
+}
+.card {
+  max-width: 350px;
+  float: left;
+  border: 1px solid rgba(2, 4, 69, 0.15);
+  background: white;
+  padding-top: 50px;
+  padding-left: 23px;
+  padding-right: 23px;
+  margin-right: 30px;
+  border-radius: 6px;
+}
+.card__desc {
+  max-width: 90%;
+}
+.card__h1 {
+  color: #4c4d5f;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+hr {
+  color: #00b289;
+  background: #00b289;
+  height: 3px;
+}
+.card__price {
+  color: #4c4d5f;
+  font-family: sans-serif;
+  align-items: flex-end;
+  font-size: 62px;
+  line-height: 72px;
+  font-weight: 600;
+}
+.card__price .currency {
+  font-size: 50px;
+  font-weight: 200;
+}
+.card__price .time {
+  font-size: 34px;
+  font-weight: 200;
+}
+.card__ul {
+  padding-top: 40px;
+  margin-bottom: 25px;
+  padding-left: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card__btn button {
+  width: 100%;
+  color: white;
+  margin-top: auto;
+  padding: 22px 25px;
+  border-radius: 4px;
+  background-color: #00b289;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid rgb(227, 221, 221);
+  margin-bottom: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
