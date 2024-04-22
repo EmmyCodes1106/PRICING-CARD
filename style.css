@@ -10,11 +10,10 @@ body {
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 100vh;
 }
 .container {
   display: flex;
-  height: 100vh;
+  height: auto;
   padding: 15px;
 }
 .card {
@@ -29,6 +28,7 @@ body {
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 3px 3px 2px #aeaeb1;
+  height: auto;
 }
 .card__desc {
   max-width: 90%;
@@ -79,10 +79,14 @@ hr {
   text-decoration: none;
   text-transform: uppercase;
   border: 1px solid rgb(227, 221, 221);
-  margin-bottom: 0;
+  margin-bottom: 30px;
   margin-left: 0;
   margin-right: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .card__prenium h1 {
   color: white;
@@ -98,6 +102,6 @@ hr {
   right: 0;
   width: 250px;
   opacity: 70%;
-  margin-left: 130px;
-  font-weight: 600;
+  margin-left: 135px;
+  font-weight: 600;x
 }
